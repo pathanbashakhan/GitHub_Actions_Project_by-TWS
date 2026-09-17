@@ -8,7 +8,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: clone the code
-       uses: action/checkout@v7
+       uses: actions/checkout@v7
      - name: print the message 
        run: echo h this is done completed
        
